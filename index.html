@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heróis Overwatch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/Overwatch_logo.png" alt="Logo Overwatch">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um herói </h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="ana" data-name="Ana" data-description="Uma das fundadoras da Overwatch, Ana usa suas habilidades e seu conhecimento para defender seu lar e aqueles com quem ela se importa.">
+                    <img src="./src/imagens/ana_perfil.png" alt="Personagen Ana">
+                </li>
+
+                <li class="personagem" id="ashe" data-name="Ashe" data-description="Ashe, a líder ambiciosa e calculista da gangue Deadlock, é uma figura respeitada no submundo do crime.">
+                    <img src="./src/imagens/ashe_perfil.png" alt="Personagen Ashe">
+                </li>
+
+                <li class="personagem" id="bastion" data-name="Bastion" data-description="Outrora combatente na linha de frente na devastadora Crise Ômnica, esta curiosa unidade Bastion agora explora o mundo, fascinada pela natureza, porém cautelosa com uma humanidade temível.">
+                    <img src="./src/imagens/bastion_perfil.png" alt="Personagen Bastion">
+                </li>
+
+                <li class="personagem" id="d-va" data-name="D.va" data-description="D.Va é uma ex-gamer profissional que sabe como usar suas habilidades para pilotar um mecha de última geração na defesa de sua cidade natal.">
+                    <img src="./src/imagens/dva_perfil.png" alt="Personagen D.va">
+                </li>
+
+                <li class="personagem" id="doomfist" data-name="Doomfist" data-description="É o líder calculista da Talon, uma organização terrorista e força paramilitar que trabalha em oposição direta à Overwatch.">
+                    <img src="./src/imagens/doon_perfil.png" alt="Personagen Doomfist">
+                </li>
+
+                <li class="personagem" id="hanzo" data-name="Hanzo" data-description="Aperfeiçoando suas habilidades como arqueiro e assassino, Hanzo Shimada almeja mostrar-se digno como guerreiro sem par.">
+                    <img src="./src/imagens/hanzo_perfil.png" alt="Personagen Hanzo">
+                </li>
+
+                <li class="personagem" id="junkrat" data-name="Junkrat" data-description="Junkrat é um demolidor obcecado por explosivos que vive para causar destruição e caos.">
+                    <img src="./src/imagens/junk_perfil.png" alt="Personagen Junkrat">
+                </li>
+
+                <li class="personagem" id="lucio" data-name="Lucio" data-description="Lúcio é uma celebridade internacional que inspira a mudança social através da música e do ativismo">
+                    <img src="./src/imagens/lucio_perfil.png" alt="Personagen Lucio">
+                </li>
+
+                <li class="personagem" id="moira" data-name="Moira" data-description="Tão brilhante quanto controversa, a cientista Moira O’Deorain pesquisa o que há de mais avançado na engenharia genética, buscando uma forma de reescrever os fundamentos que constroem a vida.">
+                    <img src="./src/imagens/moira_perfil.png" alt="Personagen Moira">
+                </li>
+
+                <li class="personagem" id="orisa" data-name="Orisa" data-description="Construída a partir das peças de um OR15, os robôs de defesa de curta duração de Numbani, Orisa é a mais nova protetora da cidade, mas ela ainda tem muito o que aprender.">
+                    <img src="./src/imagens/orisa_perfil.png" alt="Personagen Orisa">
+                </li>
+
+                <li class="personagem" id="pharah" data-name="Pharah" data-description="O comprometimento com o dever de Fareeha Amari corre em suas veias. Ela vem de uma longa linhagem de soldados altamente condecorados e tem um desejo intenso de servir com honra.">
+                    <img src="./src/imagens/pharah_perfil.png" alt="Personagen Pharah">
+                </li>
+
+                <li class="personagem" id="rainha-junker" data-name="Rainha Junker" data-description="Munida do machado Carnificina e de uma manopla eletromagnética, a líder implacável dos junkers está numa missão de dominação mundial.">
+                    <img src="./src/imagens/rainha_perfil.png" alt="Personagen Rainha Junker">
+                </li>
+
+                <li class="personagem" id="ramattra" data-name="Ramattra" data-description="O líder impiedoso do Setor Nulo não vai parar por nada até transformar seu ideal em realidade.">
+                    <img src="./src/imagens/ramattra_perfil.png" alt="Personagen Ramattra">
+                </li>
+
+                <li class="personagem" id="reaper" data-name="Reaper" data-description="Há quem fale sobre um terrorista em um manto preto, conhecido apenas como Reaper. Sua identidade e motivações são um mistério. O que se sabe é que onde ele aparece, a morte o segue.">
+                    <img src="./src/imagens/reaper_perfil.png" alt="Personagen Reaper">
+                </li>
+
+                <li class="personagem" id="reinhardt" data-name="Reinhardt" data-description="Reinhardt Wilhelm se veste como um herói de eras passadas que vive pelos nobres códigos do valor, da justiça e da coragem.">
+                    <img src="./src/imagens/rein_perfil.png" alt="Personagen Reinhardt">
+                </li>
+
+                <li class="personagem" id="sigma" data-name="Sigma" data-description="A vida de Dr. Siebren de Kuiper, astrofísico brilhante, mudou para sempre quando um experimento catastrófico lhe deu o poder de controlar a gravidade. Agora, a Talon o manipula para seus próprios fins.">
+                    <img src="./src/imagens/sigma_perfil.png" alt="Personagen Sigma">
+                </li>
+
+                <li class="personagem" id="soldado-76" data-name="Soldado 76" data-description="Alvo de uma caçada internacional, o vigilante conhecido como Soldado: 76 trava uma guerra pessoal para expor a verdade por trás do colapso da Overwatch.">
+                    <img src="./src/imagens/soldado_perfil.png" alt="Personagen Soldado 76">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ana.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ana</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Uma das fundadoras da Overwatch, Ana usa suas habilidades e seu conhecimento para defender seu lar e aqueles com quem ela se importa.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
